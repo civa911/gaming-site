@@ -1,0 +1,19 @@
+#project
+{
+  background: #2e2f34;
+  text-align: center;
+  justify-content: center;
+  
+}
+#project .content
+{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 20px;
+  margin: 40px 0;
+}
+#project .content .imgBx img
+{
+  max-width: 100%;
+  
+}
